@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD53D1742A88C14F003E7712 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD53D1732A88C14F003E7712 /* RegisterView.swift */; };
+		CD53D1772A88D09A003E7712 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD53D1762A88D09A003E7712 /* UserManager.swift */; };
 		CD9418DB2A804181005D9CF1 /* BabyFishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9418DA2A804181005D9CF1 /* BabyFishApp.swift */; };
 		CD9418DD2A804181005D9CF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9418DC2A804181005D9CF1 /* ContentView.swift */; };
 		CD9418DF2A804182005D9CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9418DE2A804182005D9CF1 /* Assets.xcassets */; };
 		CD9418E22A804182005D9CF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9418E12A804182005D9CF1 /* Preview Assets.xcassets */; };
+		CD9418E92A804199005D9CF1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9418E82A804199005D9CF1 /* LoginView.swift */; };
+		CD9418EB2A8041CD005D9CF1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9418EA2A8041CD005D9CF1 /* LoginViewModel.swift */; };
+		CD9418F22A804253005D9CF1 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9418F12A804253005D9CF1 /* CommunityView.swift */; };
+		CDD824B32A83C64F001D4C4C /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD824B22A83C64F001D4C4C /* CreatePostView.swift */; };
+		CDD824B62A83C67D001D4C4C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD824B52A83C67D001D4C4C /* MainView.swift */; };
+		CDD824B82A83C696001D4C4C /* AddCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD824B72A83C696001D4C4C /* AddCommentView.swift */; };
+		CDD824BA2A83C6BA001D4C4C /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD824B92A83C6BA001D4C4C /* PostDetailView.swift */; };
+		CDD824BC2A83C6C9001D4C4C /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD824BB2A83C6C9001D4C4C /* Comment.swift */; };
+		CDD824BE2A83C6E3001D4C4C /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD824BD2A83C6E3001D4C4C /* CommentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD53D1732A88C14F003E7712 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		CD53D1762A88D09A003E7712 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		CD9418D72A804181005D9CF1 /* BabyFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9418DA2A804181005D9CF1 /* BabyFishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyFishApp.swift; sourceTree = "<group>"; };
 		CD9418DC2A804181005D9CF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD9418DE2A804182005D9CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD9418E12A804182005D9CF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD9418E82A804199005D9CF1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CD9418EA2A8041CD005D9CF1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CD9418F12A804253005D9CF1 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		CDD824B22A83C64F001D4C4C /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
+		CDD824B52A83C67D001D4C4C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CDD824B72A83C696001D4C4C /* AddCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommentView.swift; sourceTree = "<group>"; };
+		CDD824B92A83C6BA001D4C4C /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		CDD824BB2A83C6C9001D4C4C /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		CDD824BD2A83C6E3001D4C4C /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +54,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD53D1722A88C0F2003E7712 /* ModelControl */ = {
+			isa = PBXGroup;
+			children = (
+				CD9418EA2A8041CD005D9CF1 /* LoginViewModel.swift */,
+				CD53D1762A88D09A003E7712 /* UserManager.swift */,
+				CDD824BB2A83C6C9001D4C4C /* Comment.swift */,
+			);
+			path = ModelControl;
+			sourceTree = "<group>";
+		};
 		CD9418CE2A804181005D9CF1 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +83,8 @@
 		CD9418D92A804181005D9CF1 /* BabyFish */ = {
 			isa = PBXGroup;
 			children = (
+				CD53D1722A88C0F2003E7712 /* ModelControl */,
+				CD9418EC2A8041F2005D9CF1 /* UIView */,
 				CD9418DA2A804181005D9CF1 /* BabyFishApp.swift */,
 				CD9418DC2A804181005D9CF1 /* ContentView.swift */,
 				CD9418DE2A804182005D9CF1 /* Assets.xcassets */,
@@ -65,6 +99,21 @@
 				CD9418E12A804182005D9CF1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD9418EC2A8041F2005D9CF1 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				CD53D1732A88C14F003E7712 /* RegisterView.swift */,
+				CD9418E82A804199005D9CF1 /* LoginView.swift */,
+				CD9418F12A804253005D9CF1 /* CommunityView.swift */,
+				CDD824B22A83C64F001D4C4C /* CreatePostView.swift */,
+				CDD824B52A83C67D001D4C4C /* MainView.swift */,
+				CDD824B72A83C696001D4C4C /* AddCommentView.swift */,
+				CDD824B92A83C6BA001D4C4C /* PostDetailView.swift */,
+				CDD824BD2A83C6E3001D4C4C /* CommentView.swift */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +186,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9418EB2A8041CD005D9CF1 /* LoginViewModel.swift in Sources */,
+				CDD824BA2A83C6BA001D4C4C /* PostDetailView.swift in Sources */,
+				CDD824B62A83C67D001D4C4C /* MainView.swift in Sources */,
+				CD53D1772A88D09A003E7712 /* UserManager.swift in Sources */,
+				CDD824B32A83C64F001D4C4C /* CreatePostView.swift in Sources */,
+				CD9418E92A804199005D9CF1 /* LoginView.swift in Sources */,
+				CD9418F22A804253005D9CF1 /* CommunityView.swift in Sources */,
+				CDD824BE2A83C6E3001D4C4C /* CommentView.swift in Sources */,
 				CD9418DD2A804181005D9CF1 /* ContentView.swift in Sources */,
+				CDD824B82A83C696001D4C4C /* AddCommentView.swift in Sources */,
+				CD53D1742A88C14F003E7712 /* RegisterView.swift in Sources */,
+				CDD824BC2A83C6C9001D4C4C /* Comment.swift in Sources */,
 				CD9418DB2A804181005D9CF1 /* BabyFishApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
