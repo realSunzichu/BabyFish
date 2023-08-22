@@ -18,10 +18,11 @@
 		CD9418F22A804253005D9CF1 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9418F12A804253005D9CF1 /* CommunityView.swift */; };
 		CDD824B32A83C64F001D4C4C /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD824B22A83C64F001D4C4C /* CreatePostView.swift */; };
 		CDD824B62A83C67D001D4C4C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD824B52A83C67D001D4C4C /* MainView.swift */; };
-		CDD824B82A83C696001D4C4C /* AddCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD824B72A83C696001D4C4C /* AddCommentView.swift */; };
 		CDD824BA2A83C6BA001D4C4C /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD824B92A83C6BA001D4C4C /* PostDetailView.swift */; };
 		CDD824BC2A83C6C9001D4C4C /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD824BB2A83C6C9001D4C4C /* Comment.swift */; };
 		CDD824BE2A83C6E3001D4C4C /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD824BD2A83C6E3001D4C4C /* CommentView.swift */; };
+		CDD9FBAB2A9453C200E68B03 /* AddCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD9FBAA2A9453C200E68B03 /* AddCommentView.swift */; };
+		CDD9FBAD2A9457E300E68B03 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD9FBAC2A9457E300E68B03 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,10 +38,11 @@
 		CD9418F12A804253005D9CF1 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
 		CDD824B22A83C64F001D4C4C /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
 		CDD824B52A83C67D001D4C4C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		CDD824B72A83C696001D4C4C /* AddCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommentView.swift; sourceTree = "<group>"; };
 		CDD824B92A83C6BA001D4C4C /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 		CDD824BB2A83C6C9001D4C4C /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		CDD824BD2A83C6E3001D4C4C /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		CDD9FBAA2A9453C200E68B03 /* AddCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommentView.swift; sourceTree = "<group>"; };
+		CDD9FBAC2A9457E300E68B03 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CD9418EA2A8041CD005D9CF1 /* LoginViewModel.swift */,
 				CD53D1762A88D09A003E7712 /* UserManager.swift */,
 				CDD824BB2A83C6C9001D4C4C /* Comment.swift */,
+				CDD9FBAC2A9457E300E68B03 /* ImagePicker.swift */,
 			);
 			path = ModelControl;
 			sourceTree = "<group>";
@@ -109,9 +112,9 @@
 				CD9418F12A804253005D9CF1 /* CommunityView.swift */,
 				CDD824B22A83C64F001D4C4C /* CreatePostView.swift */,
 				CDD824B52A83C67D001D4C4C /* MainView.swift */,
-				CDD824B72A83C696001D4C4C /* AddCommentView.swift */,
 				CDD824B92A83C6BA001D4C4C /* PostDetailView.swift */,
 				CDD824BD2A83C6E3001D4C4C /* CommentView.swift */,
+				CDD9FBAA2A9453C200E68B03 /* AddCommentView.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -189,13 +192,14 @@
 				CD9418EB2A8041CD005D9CF1 /* LoginViewModel.swift in Sources */,
 				CDD824BA2A83C6BA001D4C4C /* PostDetailView.swift in Sources */,
 				CDD824B62A83C67D001D4C4C /* MainView.swift in Sources */,
+				CDD9FBAD2A9457E300E68B03 /* ImagePicker.swift in Sources */,
 				CD53D1772A88D09A003E7712 /* UserManager.swift in Sources */,
 				CDD824B32A83C64F001D4C4C /* CreatePostView.swift in Sources */,
+				CDD9FBAB2A9453C200E68B03 /* AddCommentView.swift in Sources */,
 				CD9418E92A804199005D9CF1 /* LoginView.swift in Sources */,
 				CD9418F22A804253005D9CF1 /* CommunityView.swift in Sources */,
 				CDD824BE2A83C6E3001D4C4C /* CommentView.swift in Sources */,
 				CD9418DD2A804181005D9CF1 /* ContentView.swift in Sources */,
-				CDD824B82A83C696001D4C4C /* AddCommentView.swift in Sources */,
 				CD53D1742A88C14F003E7712 /* RegisterView.swift in Sources */,
 				CDD824BC2A83C6C9001D4C4C /* Comment.swift in Sources */,
 				CD9418DB2A804181005D9CF1 /* BabyFishApp.swift in Sources */,

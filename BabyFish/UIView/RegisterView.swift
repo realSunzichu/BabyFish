@@ -12,12 +12,32 @@ struct RegisterView: View {
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var verificationCode: String = ""
-    @State private var actualVerificationCode: String = ""  // 服务器发送的实际验证码
+    @State private var actualVerificationCode: String = ""
     @State private var showingAlert = false
     @State private var alertMessage = ""
+    
+    // For Avatar Upload
+    @State private var showingImagePicker = false
+    @State private var avatarImage: UIImage?
 
     var body: some View {
-        VStack {
+        VStack(spacing: 15) {
+            if let image = avatarImage {
+                Image(uiImage: image)
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                    .clipShape(Circle())
+            } else {
+                Image(systemName: "person.crop.circle")  // default avatar
+                    .resizable()
+                    .frame(width: 100, height: 100)
+            }
+
+            Button("选择头像") {
+                showingImagePicker.toggle()
+            }
+            .padding(.bottom, 20)
+
             TextField("用户名", text: $username)
                 .padding()
                 .border(Color.black, width: 0.5)
@@ -51,11 +71,15 @@ struct RegisterView: View {
             }
         }
         .padding()
+        .sheet(isPresented: $showingImagePicker) {
+            ImagePicker(isPresented: $showingImagePicker, selectedImage: $avatarImage)
+        }
     }
+    
 
     func sendVerificationCode() {
         self.actualVerificationCode = String(format: "%04d", Int.random(in: 1000..<10000))
-        print("验证码为: \(self.actualVerificationCode)")  // 在真实环境中，您应该删除此行
+        print("验证码为: \(self.actualVerificationCode)")  // 在真实环境中，应该删除此行
     }
 
     func validateAndRegister() {

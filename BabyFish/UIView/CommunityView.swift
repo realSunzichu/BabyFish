@@ -29,8 +29,8 @@ struct CommunityView: View {
         // 以下是模拟数据
         posts = [
             // 示例数据
-            Post(username: "用户1", avatar: "avatar1", content: "这是一个新的示例帖子", comments: []),
-            // ... 可以添加更多模拟帖子
+            Post(username: "用户1", avatar: nil, content: "这是一个新的示例帖子", comments: []),
+            // 
         ]
     }
 }
@@ -41,14 +41,20 @@ struct PostView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
-                Image(post.avatar)
-                    .resizable()
-                    .frame(width: 50, height: 50)
+                if let avatarImage = post.avatar {
+                    Image(uiImage: avatarImage)
+                        .resizable()
+                        .frame(width: 50, height: 50)
+                } else {
+                    // 使用一个默认的头像或系统图标
+                    Image(systemName: "person.circle.fill")
+                        .resizable()
+                        .frame(width: 50, height: 50)
+                }
                 Text(post.username)
                 Spacer()
             }
             
-            // 将 NavigationLink 仅用于帖子内容
             NavigationLink(destination: PostDetailView(post: post)) {
                 Text(post.content.prefix(100) + "")  // 显示内容摘要
             }
@@ -56,10 +62,16 @@ struct PostView: View {
     }
 }
 
+
 struct CommunityView_Previews: PreviewProvider {
-    @State static var posts = [Post]()
+    @State static var posts: [Post] = [
+        Post(username: "用户A", avatar: nil, content: "这是用户A的示例帖子内容", comments: []),
+        Post(username: "用户B", avatar: nil, content: "这是用户B的示例帖子内容", comments: [])
+    ]
 
     static var previews: some View {
-        CommunityView(posts: $posts)
+        NavigationView {
+            CommunityView(posts: $posts)
+        }
     }
 }

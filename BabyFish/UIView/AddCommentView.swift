@@ -2,9 +2,8 @@
 //  AddCommentView.swift
 //  BabyFish
 //
-//  Created by 孙子楚 on 2023/8/9.
+//  Created by 孙子楚 on 2023/8/22.
 //
-
 
 import SwiftUI
 
@@ -37,7 +36,3 @@ struct AddCommentView: View {
         .padding()
     }
 }
-
-
-
-

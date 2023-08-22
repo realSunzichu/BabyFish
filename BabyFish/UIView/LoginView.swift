@@ -24,7 +24,7 @@ struct LoginView: View {
                         .font(.system(size: 25))
                         .fontWeight(.bold)
                     TextField("", text: $viewModel.username)
-                        .font(.system(size: 22))
+                        .font(.system(size: 25))
                         .overlay(
                             Rectangle()
                                 .frame(height: 2)
@@ -36,7 +36,7 @@ struct LoginView: View {
                         .font(.system(size: 25))
                         .fontWeight(.bold)
                     SecureField("", text: $viewModel.password)
-                        .font(.system(size: 22))
+                        .font(.system(size: 25))
                         .overlay(
                             Rectangle()
                                 .frame(height: 2)

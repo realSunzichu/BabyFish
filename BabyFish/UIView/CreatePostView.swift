@@ -41,7 +41,7 @@ struct CreatePostView: View {
             return
         }
         
-        let newPost = Post(username: "新用户", avatar: "avatar1", content: trimmedContent, comments: [])
+        let newPost = Post(username: "新用户", avatar: nil, content: trimmedContent, comments: [])
         posts.append(newPost)
     }
 }

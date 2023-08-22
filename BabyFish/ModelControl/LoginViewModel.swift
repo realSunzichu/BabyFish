@@ -19,7 +19,7 @@ class LoginViewModel: ObservableObject {
             self.isLoggedIn = true
             completion(true)
         }
-        // 如果登录失败，您可以设置：
+        // 如果登录失败，可以设置：
         // self.isLoggedIn = false
     }
 }

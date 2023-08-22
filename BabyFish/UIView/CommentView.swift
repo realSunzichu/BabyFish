@@ -22,11 +22,14 @@ struct CommentView: View {
                 Text(comment.username)
                     .font(.headline)
                 Spacer()
+                    .padding()
                 Text(formattedDate)  // Display the formatted date
                     .font(.subheadline)
                     .foregroundColor(.gray)
             }
             Text(comment.content)
+                .lineLimit(nil)  // Ensure comment text doesn't get cut off
+                .fixedSize(horizontal: false, vertical: true)  // Allow comment text to expand vertically
         }
         .padding(.top)
     }
